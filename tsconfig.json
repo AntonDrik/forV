@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "bundle",
+    "baseUrl": "./",
+    "paths": {
+      "@global-types/*": ["types/*"],
+      "@shared/*": ["client/shared/*"],
+      "@state/*": ["client/state/*"],
+      "@application/*": ["client/application/*"],
+      "@services/*": ["src/services/*"]
+    },
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "jsx": "react"
+  }
+}
